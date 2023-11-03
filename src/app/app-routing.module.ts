@@ -21,6 +21,10 @@ const routes: Routes = [
   {
     path: 'direct/:id',
     component: DirectComponent,
+  },
+  {
+    path: 'login',
+    component: HomeComponent,
   }
 ];
 
